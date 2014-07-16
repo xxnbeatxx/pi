@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	border:		none;
+	margin		0 0 0 0;
+	padding:	0 0 0 0;
+	color:		white;
+	font-family: 'PT Mono', 'serif';
+}
+
+body
+{
+	background-color: black;
+	font-family: 'PT Mono', 'serif';
+	text-transform:uppercase;
+}
+
+#center_logo
+{
+	position: absolute;
+	top: 0;
+	margin:0 10% 0 10%;
+	height: 40vw;
+	width: 80%;
+}
+
+
+.bottom_bar
+{
+	color: 				rgba(255, 255, 255, 0.5);
+	padding: 			.5% 2.5% .5% 2.5%;
+	background-color: 	#222;
+	width:				94%;
+	display: 			inline-block;
+	font-size:			3vw;
+	text-align:			right;
+	position:			absolute;
+	bottom:				0;
+	text-decoration:	none;
+	font-family: 		'PT Mono', 'serif';
+}
+
+#crud_button
+{
+	color: 				rgba(255, 255, 255, 0.5);
+	padding: 			.5% 2.5% .5% 2.5%;
+	background-color: 	#222;
+	width:				94%;
+	display: 			inline-block;
+	font-size:			3vw;
+	text-align:			right;
+	position:			absolute;
+	bottom:				0;
+	text-decoration:	none;
+}
+#crud_button:hover
+{
+	color: 				white;
+	opacity: 			1;
+}
+
+#nav
+{
+	height: 30px;
+	background: #333;
+	padding: 1%;
+	display: inline;
+	font-size: 2vw;
+	float:left;
+	margin: 1%;
+	margin-bottom:10%;
+	text-align: left;
+	font-family: 'PT Mono', 'serif';
+	border-radius: 0px;
+	width:35%;
+	text-decoration: none;
+}
+
+.nav_links{
+	margin:				4% 4%;
+	font-family: 		'PT Mono', 'sans-serif';
+	text-decoration: none;
+	
+}
+.nav_links:visited{
+	text-decoration: none;
+	margin:				4% 4%;
+	font-family: 		'PT Mono', 'sans-serif';
+}
+
+#top_left_logo{
+	margin: 2.5%;
+	float:left;
+	width: 30%;
+}
+#bye
+{
+	position:absolute;
+	bottom:0;
+	right: 0.5vw;
+	color: rgb(0,255,0);
+	background-color:black;
+	font-size:1vw;
+}
+
+
+#newmember input{
+	width: 50%;
+	height: 1.75vw;
+	border-radius: 0px;
+	color:black;
+	margin-top: 1.5vw;
+	padding: 0.1vw;
+}
+#newmember
+{
+	text-align: center;
+	margin: 14% 0 0 0;
+	width:100%;
+}
+
+table{
+	margin: 200px 20% 0 20%;
+	width:60%;
+	text-align: center;
+	background-color: black;
+	border-collapse: collapse;
+}
+
+th{
+	background-color: #222;
+}
+
+td, th{
+	padding: 10px;
+}
+
+td{
+	background-color: #333;
+}
+
